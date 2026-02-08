@@ -1114,6 +1114,21 @@ p {
         display: none;
     }
 
+    .hero-wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .profile-image-container {
+        width: 200px;
+        height: 200px;
+        margin-bottom: var(--space-4);
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
     .hero-section {
         min-height: auto;
         padding: var(--space-8) 0;
