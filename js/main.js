@@ -100,18 +100,24 @@ animateElements.forEach((element, index) => {
     });
 });
 
-// Parallax effect for hero content
-gsap.to('.hero-content', {
-    scrollTrigger: {
-        trigger: '.hero-section',
-        start: 'top top',
-        end: 'bottom top',
-        scrub: 1
+// Parallax effect for hero content - reversed (starts visible, fades as you scroll)
+gsap.fromTo('.hero-content',
+    {
+        y: 0,
+        opacity: 1
     },
-    y: 100,
-    opacity: 0.5,
-    ease: 'none'
-});
+    {
+        scrollTrigger: {
+            trigger: '.hero-section',
+            start: 'top top',
+            end: 'bottom top',
+            scrub: 1
+        },
+        y: -100,
+        opacity: 0,
+        ease: 'none'
+    }
+);
 
 // ==========================================================================
 // Skills Filter
