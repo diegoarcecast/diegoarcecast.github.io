@@ -338,19 +338,19 @@ p {
 .hero-wrapper {
     display: flex;
     align-items: center;
-    gap: var(--space-8);
+    gap: var(--space-6);
     flex-wrap: wrap;
 }
 
 .hero-content {
-    flex: 1;
-    min-width: 300px;
+    flex: 1 1 500px;
+    max-width: 650px;
 }
 
 /* Profile Image */
 .profile-image-container {
-    width: 280px;
-    height: 280px;
+    width: 160px;
+    height: 160px;
     flex-shrink: 0;
     position: relative;
 }
