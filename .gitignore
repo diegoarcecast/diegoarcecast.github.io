@@ -20,3 +20,7 @@ npm-debug.log*
 
 # Keep directory structure
 !.gitkeep
+
+# Private documentation (keep locally, not on GitHub)
+README.md
+**/README.md
