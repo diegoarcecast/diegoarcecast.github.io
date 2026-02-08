@@ -349,8 +349,8 @@ p {
 
 /* Profile Image */
 .profile-image-container {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 280px;
     flex-shrink: 0;
     position: relative;
 }
@@ -1120,8 +1120,8 @@ p {
     }
 
     .profile-image-container {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
         margin-bottom: var(--space-4);
     }
 
