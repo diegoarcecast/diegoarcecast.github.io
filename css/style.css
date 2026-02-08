@@ -335,15 +335,23 @@ p {
     padding-top: var(--nav-height);
 }
 
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+}
+
 .hero-content {
-    max-width: 900px;
+    flex: 1;
+    min-width: 300px;
 }
 
 /* Profile Image */
 .profile-image-container {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto var(--space-5);
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
     position: relative;
 }
 
