@@ -293,6 +293,37 @@ copyEmailBtn.addEventListener('click', async () => {
 });
 
 // ==========================================================================
+// Copy Phone Number
+// ==========================================================================
+
+const copyPhoneBtn = document.getElementById('copy-phone');
+const phoneNumber = document.getElementById('phone-number');
+
+if (copyPhoneBtn && phoneNumber) {
+    copyPhoneBtn.addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(phoneNumber.textContent);
+
+            const originalText = copyPhoneBtn.innerHTML;
+            copyPhoneBtn.innerHTML = `
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span class="copy-text-phone">Copied!</span>
+            `;
+            copyPhoneBtn.classList.add('copied');
+
+            setTimeout(() => {
+                copyPhoneBtn.innerHTML = originalText;
+                copyPhoneBtn.classList.remove('copied');
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy phone:', err);
+        }
+    });
+}
+
+// ==========================================================================
 // Footer - Auto Update Year and Date
 // ==========================================================================
 
