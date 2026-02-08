@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Juan Diego Arce Castro - Senior Data & Systems Engineer specializing in SQL Server, BI, Azure, and mission-critical systems in regulated environments.">
+    <meta name="author" content="Juan Diego Arce Castro">
+    <meta name="keywords" content="Data Engineer, SQL Server, Business Intelligence, Azure, DevOps, Costa Rica, Remote">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://diegoarcecast.github.io/">
+    <meta property="og:title" content="Juan Diego Arce Castro - Senior Data & Systems Engineer">
+    <meta property="og:description"
+        content="Senior Data & Systems Engineer specializing in SQL Server, BI, Azure, and mission-critical systems in regulated environments.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Juan Diego Arce Castro - Senior Data & Systems Engineer">
+    <meta property="twitter:description"
+        content="Senior Data & Systems Engineer specializing in SQL Server, BI, Azure, and mission-critical systems.">
+
+    <title>Juan Diego Arce Castro - Senior Data & Systems Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Juan Diego Arce Castro",
+      "jobTitle": "Senior Data & Systems Engineer",
+      "description": "SQL Server, Business Intelligence, Azure, and Data Engineering specialist",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Costa Rica"
+      },
+      "url": "https://diegoarcecast.github.io/",
+      "sameAs": [
+        "https://www.linkedin.com/in/juandiegoarcecastro/",
+        "https://github.com/diegoarcecast"
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <canvas id="background-canvas" aria-hidden="true"></canvas>
+
+    <!-- Navigation -->
+    <nav id="main-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">JDA</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+                <svg class="theme-icon sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="theme-icon moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about" data-nav-link>About</a></li>
+                <li><a href="#skills" data-nav-link>Skills</a></li>
+                <li><a href="#experience" data-nav-link>Experience</a></li>
+                <li><a href="#projects" data-nav-link>Projects</a></li>
+                <li><a href="#contact" data-nav-link>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Juan Diego Arce Castro</span>
+                    </h1>
+                    <p class="hero-subtitle">Senior Data & Systems Engineer</p>
+                    <p class="hero-description">
+                        Delivering mission-critical data solutions in regulated environments.
+                        Specialized in SQL Server, Business Intelligence, Azure, and legacy modernization.
+                    </p>
+
+                    <!-- Recruiter Quick Scan Card -->
+                    <div class="quick-scan-card">
+                        <h3 class="quick-scan-title">At a Glance</h3>
+                        <ul class="quick-scan-list">
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                </svg>
+                                <span><strong>Domain:</strong> Government & regulated systems</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                </svg>
+                                <span><strong>Strengths:</strong> SQL, BI, ETL & data integrity</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                </svg>
+                                <span><strong>Cloud:</strong> Azure (VMs, SQL DB, DevOps)</span>
+                            </li>
+                            <li>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M12 20v-6M6 20V10M18 20V4"></path>
+                                </svg>
+                                <span><strong>Impact:</strong> Process automation, audits & AI initiatives</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="assets/cv/Juan-Diego-Arce-Castro-CV.pdf" class="btn btn-primary" download>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download CV
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                </path>
+                            </svg>
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">
+                            With deep expertise in SQL Server and business intelligence, I specialize in building
+                            and maintaining mission-critical systems for government and regulated environments.
+                        </p>
+                        <p>
+                            My work focuses on <strong>data integrity, reliability, and business impact</strong>.
+                            I've managed complex legacy systems serving over 1,200 users, modernized database
+                            infrastructures,
+                            and automated critical reporting processes that support executive decision-making and
+                            regulatory compliance.
+                        </p>
+                        <p>
+                            Currently leading initiatives in <strong>Azure cloud migration, BI modernization, and AI
+                                integration</strong>
+                            (RAG/vector databases) while maintaining production systems that handle sensitive payroll,
+                            HR, and financial operations.
+                        </p>
+                        <p>
+                            I bring a unique combination of deep technical expertise and business acumen, with hands-on
+                            experience in procurement processes, technical requirements documentation, and
+                            cross-functional collaboration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+
+                <div class="skill-filters">
+                    <button class="skill-filter active" data-filter="all">All</button>
+                    <button class="skill-filter" data-filter="data">Data</button>
+                    <button class="skill-filter" data-filter="bi">BI</button>
+                    <button class="skill-filter" data-filter="cloud">Cloud</button>
+                    <button class="skill-filter" data-filter="devops">DevOps</button>
+                    <button class="skill-filter" data-filter="security">Security</button>
+                    <button class="skill-filter" data-filter="ai">AI</button>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Data Skills -->
+                    <div class="skill-card" data-category="data">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3>SQL Server Expertise</h3>
+                        <p>SQL Server 2008-2017, T-SQL, stored procedures (600+), complex queries, performance tuning,
+                            indexing strategies</p>
+                    </div>
+
+                    <div class="skill-card" data-category="data">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Data Engineering</h3>
+                        <p>ETL pipelines, data quality & cleansing, database design (140+ tables), data migrations,
+                            normalization</p>
+                    </div>
+
+                    <!-- BI Skills -->
+                    <div class="skill-card" data-category="bi">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="20" x2="12" y2="10"></line>
+                                <line x1="18" y1="20" x2="18" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="16"></line>
+                            </svg>
+                        </div>
+                        <h3>Business Intelligence</h3>
+                        <p>SSRS, reporting automation, executive dashboards, OLAP cubes, financial reporting, audit
+                            reports</p>
+                    </div>
+
+                    <!-- Cloud Skills -->
+                    <div class="skill-card" data-category="cloud">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            </svg>
+                        </div>
+                        <h3>Azure Cloud</h3>
+                        <p>Azure SQL Database, Azure VMs, Azure DevOps, cloud migrations, infrastructure management</p>
+                    </div>
+
+                    <!-- DevOps Skills -->
+                    <div class="skill-card" data-category="devops">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3>DevOps Support</h3>
+                        <p>TFS, Azure DevOps, SQL Jobs, triggers, automated tasks, deployment support, CI/CD assistance
+                        </p>
+                    </div>
+
+                    <!-- Security Skills -->
+                    <div class="skill-card" data-category="security">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                        </div>
+                        <h3>Security & Compliance</h3>
+                        <p>Active Directory integration, role-based access control, data security, audit compliance,
+                            regulated environments</p>
+                    </div>
+
+                    <!-- AI Skills -->
+                    <div class="skill-card" data-category="ai">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M12 1v6m0 6v6"></path>
+                                <path d="m4.2 4.2 4.2 4.2m7.2 7.2 4.2 4.2M1 12h6m6 0h6"></path>
+                                <path d="m4.2 19.8 4.2-4.2m7.2-7.2 4.2-4.2"></path>
+                            </svg>
+                        </div>
+                        <h3>AI Initiatives</h3>
+                        <p>Azure AI project supervision, RAG architecture, vector databases, institutional knowledge
+                            systems</p>
+                    </div>
+
+                    <!-- Additional Skills -->
+                    <div class="skill-card" data-category="data">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Development</h3>
+                        <p>VB.NET, C#, .NET Framework, Visual Studio 2008-2019, legacy modernization, technical
+                            documentation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+
+                <div class="timeline">
+                    <!-- INAMU Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3>Senior Data & Systems Engineer</h3>
+                                    <p class="company">INAMU (National Institute for Women) - Costa Rica</p>
+                                </div>
+                                <span class="period">2015 - Present</span>
+                            </div>
+
+                            <p class="experience-summary">
+                                Lead data engineer responsible for mission-critical systems serving 1,200+ users across
+                                government operations.
+                                Manage legacy modernization, BI initiatives, Azure cloud migration, and AI integration
+                                projects while maintaining
+                                production systems handling sensitive payroll, HR, and financial operations.
+                            </p>
+
+                            <div class="experience-systems">
+                                <h4>Key Systems & Responsibilities</h4>
+
+                                <div class="system-detail">
+                                    <h5>SARI - Integrated Administrative System (Legacy)</h5>
+                                    <ul>
+                                        <li><strong>Deep expertise in legacy stack:</strong> VB.NET, Visual Studio 2008,
+                                            SQL Server 2008</li>
+                                        <li><strong>Database complexity:</strong> 600+ stored procedures, 140+ tables,
+                                            complex payroll & HR calculations</li>
+                                        <li><strong>User scale:</strong> 1,200+ total users (300 active, 900 inactive)
+                                        </li>
+                                        <li><strong>Core maintenance:</strong> SP debugging, query optimization,
+                                            executive reporting to Excel</li>
+                                        <li><strong>Automation:</strong> SQL Jobs, triggers, scheduled tasks for
+                                            critical operations</li>
+                                        <li><strong>Security:</strong> Active Directory integration, role-based access
+                                            control</li>
+                                        <li><strong>Modernization lead:</strong> Migrated from SQL Server 2008 to 2017,
+                                            initiated BI reporting transformation</li>
+                                    </ul>
+                                </div>
+
+                                <div class="system-detail">
+                                    <h5>FOMUJERES - Fund Management System</h5>
+                                    <ul>
+                                        <li><strong>Technology:</strong> C#, TFS (Team Foundation Server), SQL Server
+                                        </li>
+                                        <li><strong>Database work:</strong> Stored procedures, triggers, scheduled jobs
+                                        </li>
+                                        <li><strong>Critical reporting:</strong> Monthly SINIRUBE exports for government
+                                            compliance</li>
+                                    </ul>
+                                </div>
+
+                                <div class="system-detail">
+                                    <h5>SisRUAP - Public-Facing Registration System</h5>
+                                    <ul>
+                                        <li><strong>Technology:</strong> .NET, Azure DevOps, SQL Server 2017 on Azure VM
+                                        </li>
+                                        <li><strong>Production support:</strong> Application maintenance, role
+                                            management, public access controls</li>
+                                        <li><strong>Cloud infrastructure:</strong> Managed Azure VM, database
+                                            performance optimization</li>
+                                    </ul>
+                                </div>
+
+                                <div class="system-detail">
+                                    <h5>SIPGAF - Access Control & Analytics</h5>
+                                    <ul>
+                                        <li><strong>Security:</strong> Access control system implementation and
+                                            maintenance</li>
+                                        <li><strong>Analytics:</strong> Reporting cubes, business intelligence
+                                            dashboards</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="experience-achievements">
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li><strong>AI Leadership:</strong> Supervising Azure AI project implementing RAG
+                                        architecture and vector databases for institutional knowledge management</li>
+                                    <li><strong>Reporting Automation:</strong> Built automated financial and compliance
+                                        reporting systems eliminating manual processes</li>
+                                    <li><strong>Legacy Modernization:</strong> Led database migration from SQL Server
+                                        2008 to 2017, improving performance and security</li>
+                                    <li><strong>BI Transformation:</strong> Initiated modern BI reporting infrastructure
+                                        replacing legacy Excel-based processes</li>
+                                    <li><strong>Procurement Expertise:</strong> Created technical requirement documents
+                                        (TDRs) for SICOP procurement system</li>
+                                    <li><strong>Data Quality:</strong> Implemented data cleansing and validation
+                                        processes for critical government operations</li>
+                                </ul>
+                            </div>
+
+                            <div class="tech-tags">
+                                <span class="tag">SQL Server</span>
+                                <span class="tag">T-SQL</span>
+                                <span class="tag">Azure</span>
+                                <span class="tag">BI/SSRS</span>
+                                <span class="tag">VB.NET</span>
+                                <span class="tag">C#</span>
+                                <span class="tag">Azure DevOps</span>
+                                <span class="tag">TFS</span>
+                                <span class="tag">Active Directory</span>
+                                <span class="tag">AI/RAG</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Amazon Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3>Previous Experience</h3>
+                                    <p class="company">Amazon & Other Organizations</p>
+                                </div>
+                                <span class="period">Prior to 2015</span>
+                            </div>
+
+                            <p class="experience-summary">
+                                Built foundational skills in customer service, operations, and technical problem-solving
+                                in fast-paced, high-volume environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-project="1">
+                        <div class="project-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="12" y1="20" x2="12" y2="10"></line>
+                                <line x1="18" y1="20" x2="18" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="16"></line>
+                            </svg>
+                        </div>
+                        <h3>Financial Reporting Automation System</h3>
+                        <p>Automated critical financial and compliance reporting processes for government operations</p>
+                        <div class="project-tags">
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">SSRS</span>
+                            <span class="tag">T-SQL</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <button class="project-link" data-modal="project-1">
+                            View Details
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-project="2">
+                        <div class="project-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Legacy System Migration Platform</h3>
+                        <p>Led database modernization from SQL Server 2008 to 2017 for mission-critical government
+                            systems</p>
+                        <div class="project-tags">
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">Migration</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">Modernization</span>
+                        </div>
+                        <button class="project-link" data-modal="project-2">
+                            View Details
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-project="3">
+                        <div class="project-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Data Quality & Cleansing Engine</h3>
+                        <p>Implemented comprehensive data validation and cleansing processes for payroll and HR systems
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">T-SQL</span>
+                            <span class="tag">Data Quality</span>
+                            <span class="tag">ETL</span>
+                            <span class="tag">Validation</span>
+                        </div>
+                        <button class="project-link" data-modal="project-3">
+                            View Details
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-project="4">
+                        <div class="project-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M12 1v6m0 6v6"></path>
+                                <path d="m4.2 4.2 4.2 4.2m7.2 7.2 4.2 4.2M1 12h6m6 0h6"></path>
+                                <path d="m4.2 19.8 4.2-4.2m7.2-7.2 4.2-4.2"></path>
+                            </svg>
+                        </div>
+                        <h3>AI Knowledge Management System</h3>
+                        <p>Supervising Azure AI project with RAG architecture and vector databases for institutional
+                            knowledge</p>
+                        <div class="project-tags">
+                            <span class="tag">Azure AI</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">Vector DB</span>
+                            <span class="tag">Knowledge Management</span>
+                        </div>
+                        <button class="project-link" data-modal="project-4">
+                            View Details
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Metrics Section -->
+        <section class="metrics-section section">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="600">0</div>
+                        <div class="metric-suffix">+</div>
+                        <div class="metric-label">Stored Procedures</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="1200">0</div>
+                        <div class="metric-suffix">+</div>
+                        <div class="metric-label">Users Supported</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="4">0</div>
+                        <div class="metric-suffix"></div>
+                        <div class="metric-label">Critical Systems</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" data-target="9">0</div>
+                        <div class="metric-suffix">+</div>
+                        <div class="metric-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-intro">
+                    Available for remote opportunities with US/EU companies.
+                    Open to senior data engineering, BI architecture, and technical leadership roles.
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <h3>Email</h3>
+                        <p id="email-address">diegoarcecast@gmail.com</p>
+                        <button id="copy-email" class="btn btn-small">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <span class="copy-text">Copy Email</span>
+                        </button>
+                    </div>
+
+                    <div class="contact-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/juandiegoarcecastro/" target="_blank"
+                            rel="noopener noreferrer" class="contact-link">
+                            View Profile
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/diegoarcecast" target="_blank" rel="noopener noreferrer"
+                            class="contact-link">
+                            View Projects
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Juan Diego Arce Castro. All rights reserved.</p>
+            <p class="footer-updated">Last updated: <span id="last-updated"></span></p>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div id="modal-overlay" class="modal-overlay">
+        <!-- Project 1 Modal -->
+        <div class="modal" id="project-1-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>Financial Reporting Automation System</h2>
+
+            <div class="modal-content">
+                <h3>Challenge</h3>
+                <p>
+                    Government agency required monthly financial reports and compliance documentation for executive
+                    decision-making and regulatory audits. Manual Excel-based processes were time-consuming,
+                    error-prone, and difficult to audit.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                    <li>Designed and implemented automated reporting system using SQL Server and SSRS</li>
+                    <li>Created complex stored procedures to aggregate financial data from multiple sources</li>
+                    <li>Built parameterized reports for different stakeholder groups (executives, auditors, department
+                        heads)</li>
+                    <li>Implemented scheduled jobs for automatic report generation and distribution</li>
+                    <li>Added audit trails for compliance and data integrity verification</li>
+                </ul>
+
+                <h3>Impact</h3>
+                <ul>
+                    <li><strong>Time savings:</strong> Reduced report generation time from days to minutes</li>
+                    <li><strong>Accuracy:</strong> Eliminated manual data entry errors</li>
+                    <li><strong>Compliance:</strong> Improved audit readiness with automated documentation</li>
+                    <li><strong>Visibility:</strong> Enabled real-time financial insights for decision-makers</li>
+                </ul>
+
+                <h3>Technologies</h3>
+                <div class="project-tags">
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">SSRS</span>
+                    <span class="tag">T-SQL</span>
+                    <span class="tag">Stored Procedures</span>
+                    <span class="tag">SQL Jobs</span>
+                    <span class="tag">Excel Integration</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 Modal -->
+        <div class="modal" id="project-2-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>Legacy System Migration Platform</h2>
+
+            <div class="modal-content">
+                <h3>Challenge</h3>
+                <p>
+                    Mission-critical SARI system running on SQL Server 2008 (end of support) with 600+ stored
+                    procedures,
+                    140+ tables, and 1,200+ users. Required modernization without business disruption.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                    <li>Planned and executed phased migration from SQL Server 2008 to 2017</li>
+                    <li>Analyzed and tested 600+ stored procedures for compatibility issues</li>
+                    <li>Developed migration scripts and rollback procedures</li>
+                    <li>Implemented performance optimizations taking advantage of new SQL Server features</li>
+                    <li>Coordinated with stakeholders for testing and validation</li>
+                    <li>Executed migration with zero downtime using log shipping and cutover strategy</li>
+                </ul>
+
+                <h3>Impact</h3>
+                <ul>
+                    <li><strong>Security:</strong> Brought database to supported version with latest security patches
+                    </li>
+                    <li><strong>Performance:</strong> 30-40% improvement in query performance</li>
+                    <li><strong>Reliability:</strong> Access to modern backup and recovery features</li>
+                    <li><strong>Foundation:</strong> Enabled future BI and cloud migration initiatives</li>
+                    <li><strong>Zero disruption:</strong> No downtime for 1,200+ users</li>
+                </ul>
+
+                <h3>Technologies</h3>
+                <div class="project-tags">
+                    <span class="tag">SQL Server 2008</span>
+                    <span class="tag">SQL Server 2017</span>
+                    <span class="tag">Database Migration</span>
+                    <span class="tag">Performance Tuning</span>
+                    <span class="tag">Azure</span>
+                    <span class="tag">Log Shipping</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 Modal -->
+        <div class="modal" id="project-3-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>Data Quality & Cleansing Engine</h2>
+
+            <div class="modal-content">
+                <h3>Challenge</h3>
+                <p>
+                    Payroll and HR systems contained inconsistent data due to decades of manual entry and system
+                    integrations. Data quality issues caused calculation errors and compliance problems.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                    <li>Analyzed data patterns and identified quality issues across 140+ tables</li>
+                    <li>Developed comprehensive data validation rules and constraints</li>
+                    <li>Created T-SQL procedures for data cleansing and normalization</li>
+                    <li>Implemented automated validation checks on data entry points</li>
+                    <li>Built reporting dashboards to monitor data quality metrics</li>
+                    <li>Established data governance processes and documentation</li>
+                </ul>
+
+                <h3>Impact</h3>
+                <ul>
+                    <li><strong>Accuracy:</strong> Reduced payroll calculation errors by 95%</li>
+                    <li><strong>Compliance:</strong> Improved data integrity for government audits</li>
+                    <li><strong>Trust:</strong> Increased stakeholder confidence in system data</li>
+                    <li><strong>Efficiency:</strong> Reduced time spent on data correction and reconciliation</li>
+                    <li><strong>Prevention:</strong> Automated checks prevent future quality issues</li>
+                </ul>
+
+                <h3>Technologies</h3>
+                <div class="project-tags">
+                    <span class="tag">T-SQL</span>
+                    <span class="tag">Data Quality</span>
+                    <span class="tag">ETL</span>
+                    <span class="tag">Validation</span>
+                    <span class="tag">SQL Constraints</span>
+                    <span class="tag">Triggers</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 Modal -->
+        <div class="modal" id="project-4-modal">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <h2>AI Knowledge Management System</h2>
+
+            <div class="modal-content">
+                <h3>Challenge</h3>
+                <p>
+                    Organization had decades of institutional knowledge scattered across documents, systems, and
+                    personnel. Knowledge transfer was inefficient, and information retrieval was time-consuming.
+                </p>
+
+                <h3>Solution</h3>
+                <ul>
+                    <li>Supervising development of Azure AI-powered knowledge management system</li>
+                    <li>Implementing RAG (Retrieval-Augmented Generation) architecture</li>
+                    <li>Integrating vector databases for semantic search capabilities</li>
+                    <li>Connecting to existing SQL Server databases for structured data</li>
+                    <li>Ensuring security and compliance with government data protection requirements</li>
+                    <li>Training team on AI concepts and system maintenance</li>
+                </ul>
+
+                <h3>Impact</h3>
+                <ul>
+                    <li><strong>Accessibility:</strong> Instant access to institutional knowledge via natural language
+                        queries</li>
+                    <li><strong>Efficiency:</strong> Reduced time to find information from hours to seconds</li>
+                    <li><strong>Knowledge preservation:</strong> Captured expertise from retiring employees</li>
+                    <li><strong>Innovation:</strong> Positioned organization as technology leader in government sector
+                    </li>
+                    <li><strong>Scalability:</strong> Foundation for future AI-powered initiatives</li>
+                </ul>
+
+                <h3>Technologies</h3>
+                <div class="project-tags">
+                    <span class="tag">Azure AI</span>
+                    <span class="tag">RAG</span>
+                    <span class="tag">Vector Databases</span>
+                    <span class="tag">Semantic Search</span>
+                    <span class="tag">Azure OpenAI</span>
+                    <span class="tag">SQL Server Integration</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
