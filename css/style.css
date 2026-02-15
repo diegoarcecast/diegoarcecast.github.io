@@ -324,6 +324,31 @@ p {
     display: none;
 }
 
+/* Language Toggle */
+#lang-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-1);
+    color: var(--text-secondary);
+    transition: color var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-medium);
+}
+
+#lang-toggle:hover {
+    color: var(--text-primary);
+}
+
+.lang-text {
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
