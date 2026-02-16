@@ -143,10 +143,10 @@ const translations = {
         'projects.viewdetails': 'View Details',
 
         // Metrics Section
-        'metrics.years': 'Years of Experience',
-        'metrics.systems': 'Systems Managed',
-        'metrics.deployments': 'Cloud Deployments',
-        'metrics.users': 'End Users Supported',
+        'metrics.procedures': 'Stored Procedures',
+        'metrics.users': 'Users Supported',
+        'metrics.systems': 'Critical Systems',
+        'metrics.years': 'Years Experience',
 
         // Contact Section
         'contact.title': "Let's Connect",
@@ -277,10 +277,10 @@ const translations = {
         'projects.viewdetails': 'Ver Detalles',
 
         // Sección Métricas
+        'metrics.procedures': 'Procedimientos Almacenados',
+        'metrics.users': 'Usuarios Atendidos',
+        'metrics.systems': 'Sistemas Críticos',
         'metrics.years': 'Años de Experiencia',
-        'metrics.systems': 'Sistemas Gestionados',
-        'metrics.deployments': 'Despliegues en la Nube',
-        'metrics.users': 'Usuarios Finales Atendidos',
 
         // Sección Contacto
         'contact.title': 'Conectemos',
@@ -402,10 +402,10 @@ function applyTranslations(lang) {
     const metricCards = document.querySelectorAll('.metric-card');
     if (metricCards.length >= 4) {
         const metricLabels = metricCards[0].parentElement.querySelectorAll('.metric-label');
-        if (metricLabels[0]) metricLabels[0].textContent = t['metrics.years'];
-        if (metricLabels[1]) metricLabels[1].textContent = t['metrics.systems'];
-        if (metricLabels[2]) metricLabels[2].textContent = t['metrics.deployments'];
-        if (metricLabels[3]) metricLabels[3].textContent = t['metrics.users'];
+        if (metricLabels[0]) metricLabels[0].textContent = t['metrics.procedures'];
+        if (metricLabels[1]) metricLabels[1].textContent = t['metrics.users'];
+        if (metricLabels[2]) metricLabels[2].textContent = t['metrics.systems'];
+        if (metricLabels[3]) metricLabels[3].textContent = t['metrics.years'];
     }
 
     // Experience section - INAMU
