@@ -72,7 +72,63 @@ const translations = {
         'experience.inamu.period': '2023 - Present',
         'experience.inamu.summary': "Leading data infrastructure and system modernization initiatives across the organization's mission-critical platforms. Responsible for SQL Server architecture, Business Intelligence solutions, Azure cloud migration, and enterprise-level system integration.",
         'experience.inamu.systems.title': 'Primary Systems',
+        'experience.inamu.systems.header': 'Key Systems & Responsibilities',
 
+        // SARI System
+        'experience.inamu.sari.title': 'SARI - Integrated Administrative System (Legacy)',
+        'experience.inamu.sari.1': 'Deep expertise in legacy stack:',
+        'experience.inamu.sari.2': 'Database complexity:',
+        'experience.inamu.sari.2.detail': '600+ stored procedures, 140+ tables, complex payroll & HR calculations',
+        'experience.inamu.sari.3': 'User scale:',
+        'experience.inamu.sari.3.detail': '1,200+ total users (300 active, 900 inactive)',
+        'experience.inamu.sari.4': 'Core maintenance:',
+        'experience.inamu.sari.4.detail': 'SP debugging, query optimization, executive reporting to Excel',
+        'experience.inamu.sari.5': 'Automation:',
+        'experience.inamu.sari.5.detail': 'SQL Jobs, triggers, scheduled tasks for critical operations',
+        'experience.inamu.sari.6': 'Security:',
+        'experience.inamu.sari.6.detail': 'Active Directory integration, role-based access control',
+        'experience.inamu.sari.7': 'Modernization lead:',
+        'experience.inamu.sari.7.detail': 'Migrated from SQL Server 2008 to 2017, initiated BI reporting transformation',
+
+        // FOMUJERES System
+        'experience.inamu.fomujeres.title': 'FOMUJERES - Fund Management System',
+        'experience.inamu.fomujeres.1': 'Technology:',
+        'experience.inamu.fomujeres.2': 'Database work:',
+        'experience.inamu.fomujeres.2.detail': 'Stored procedures, triggers, scheduled jobs',
+        'experience.inamu.fomujeres.3': 'Critical reporting:',
+        'experience.inamu.fomujeres.3.detail': 'Monthly SINIRUBE exports for government compliance',
+
+        // SisRUAP System
+        'experience.inamu.sisruap.title': 'SisRUAP - Public-Facing Registration System',
+        'experience.inamu.sisruap.1': 'Technology:',
+        'experience.inamu.sisruap.2': 'Production support:',
+        'experience.inamu.sisruap.2.detail': 'Application maintenance, role management, public access controls',
+        'experience.inamu.sisruap.3': 'Cloud infrastructure:',
+        'experience.inamu.sisruap.3.detail': 'Managed Azure VM, database performance optimization',
+
+        // SIPGAF System
+        'experience.inamu.sipgaf.title': 'SIPGAF - Access Control & Analytics',
+        'experience.inamu.sipgaf.1': 'Security:',
+        'experience.inamu.sipgaf.1.detail': 'Access control system implementation and maintenance',
+        'experience.inamu.sipgaf.2': 'Analytics:',
+        'experience.inamu.sipgaf.2.detail': 'Reporting cubes, business intelligence dashboards',
+
+        // Key Achievements
+        'experience.inamu.achievements.title': 'Key Achievements',
+        'experience.inamu.achievement.1.title': 'AI Leadership:',
+        'experience.inamu.achievement.1.detail': 'Supervising Azure AI project implementing RAG architecture and vector databases for institutional knowledge management',
+        'experience.inamu.achievement.2.title': 'Reporting Automation:',
+        'experience.inamu.achievement.2.detail': 'Built automated financial and compliance reporting systems eliminating manual processes',
+        'experience.inamu.achievement.3.title': 'Legacy Modernization:',
+        'experience.inamu.achievement.3.detail': 'Led database migration from SQL Server 2008 to 2017, improving performance and security',
+        'experience.inamu.achievement.4.title': 'BI Transformation:',
+        'experience.inamu.achievement.4.detail': 'Initiated modern BI reporting infrastructure replacing legacy Excel-based processes',
+        'experience.inamu.achievement.5.title': 'Procurement Expertise:',
+        'experience.inamu.achievement.5.detail': 'Created technical requirement documents (TDRs) for SICOP procurement system',
+        'experience.inamu.achievement.6.title': 'Data Quality:',
+        'experience.inamu.achievement.6.detail': 'Implemented data cleansing and validation processes for critical government operations',
+
+        // Amazon Experience
         'experience.amazon.title': 'Fraud Risk Specialist',
         'experience.amazon.company': 'Amazon Costa Rica – Global Services (Risk Mining Operations)',
         'experience.amazon.period': 'Sep 2019 - May 2023',
@@ -150,7 +206,63 @@ const translations = {
         'experience.inamu.period': '2023 - Presente',
         'experience.inamu.summary': 'Liderando infraestructura de datos e iniciativas de modernización de sistemas en las plataformas críticas de la organización. Responsable de la arquitectura SQL Server, soluciones de Business Intelligence, migración a la nube Azure e integración de sistemas de nivel empresarial.',
         'experience.inamu.systems.title': 'Sistemas Principales',
+        'experience.inamu.systems.header': 'Sistemas Principales y Responsabilidades',
 
+        // Sistema SARI
+        'experience.inamu.sari.title': 'SARI - Sistema Administrativo Integrado (Legacy)',
+        'experience.inamu.sari.1': 'Amplia experiencia en stack legacy:',
+        'experience.inamu.sari.2': 'Complejidad de base de datos:',
+        'experience.inamu.sari.2.detail': '600+ procedimientos almacenados, 140+ tablas, cálculos complejos de nómina y RH',
+        'experience.inamu.sari.3': 'Escala de usuarios:',
+        'experience.inamu.sari.3.detail': '1,200+ usuarios totales (300 activos, 900 inactivos)',
+        'experience.inamu.sari.4': 'Mantenimiento principal:',
+        'experience.inamu.sari.4.detail': 'Depuración de SP, optimización de consultas, reportes ejecutivos a Excel',
+        'experience.inamu.sari.5': 'Automatización:',
+        'experience.inamu.sari.5.detail': 'SQL Jobs, triggers, tareas programadas para operaciones críticas',
+        'experience.inamu.sari.6': 'Seguridad:',
+        'experience.inamu.sari.6.detail': 'Integración con Active Directory, control de acceso basado en roles',
+        'experience.inamu.sari.7': 'Líder de modernización:',
+        'experience.inamu.sari.7.detail': 'Migró de SQL Server 2008 a 2017, inició transformación de reportería BI',
+
+        // Sistema FOMUJERES
+        'experience.inamu.fomujeres.title': 'FOMUJERES - Sistema de Gestión de Fondos',
+        'experience.inamu.fomujeres.1': 'Tecnología:',
+        'experience.inamu.fomujeres.2': 'Trabajo de base de datos:',
+        'experience.inamu.fomujeres.2.detail': 'Procedimientos almacenados, triggers, trabajos programados',
+        'experience.inamu.fomujeres.3': 'Reportería crítica:',
+        'experience.inamu.fomujeres.3.detail': 'Exportaciones mensuales SINIRUBE para cumplimiento gubernamental',
+
+        // Sistema SisRUAP
+        'experience.inamu.sisruap.title': 'SisRUAP - Sistema de Registro Público',
+        'experience.inamu.sisruap.1': 'Tecnología:',
+        'experience.inamu.sisruap.2': 'Soporte de producción:',
+        'experience.inamu.sisruap.2.detail': 'Mantenimiento de aplicaciones, gestión de roles, controles de acceso público',
+        'experience.inamu.sisruap.3': 'Infraestructura en la nube:',
+        'experience.inamu.sisruap.3.detail': 'Gestión de Azure VM, optimización de rendimiento de base de datos',
+
+        // Sistema SIPGAF
+        'experience.inamu.sipgaf.title': 'SIPGAF - Control de Acceso y Analítica',
+        'experience.inamu.sipgaf.1': 'Seguridad:',
+        'experience.inamu.sipgaf.1.detail': 'Implementación y mantenimiento de sistema de control de acceso',
+        'experience.inamu.sipgaf.2': 'Analítica:',
+        'experience.inamu.sipgaf.2.detail': 'Cubos de reportería, tableros de business intelligence',
+
+        // Logros Clave
+        'experience.inamu.achievements.title': 'Logros Clave',
+        'experience.inamu.achievement.1.title': 'Liderazgo en IA:',
+        'experience.inamu.achievement.1.detail': 'Supervisando proyecto de IA en Azure implementando arquitectura RAG y bases de datos vectoriales para gestión del conocimiento institucional',
+        'experience.inamu.achievement.2.title': 'Automatización de Reportes:',
+        'experience.inamu.achievement.2.detail': 'Construyó sistemas automatizados de reportes financieros y de cumplimiento eliminando procesos manuales',
+        'experience.inamu.achievement.3.title': 'Modernización Legacy:',
+        'experience.inamu.achievement.3.detail': 'Lideró migración de base de datos de SQL Server 2008 a 2017, mejorando rendimiento y seguridad',
+        'experience.inamu.achievement.4.title': 'Transformación BI:',
+        'experience.inamu.achievement.4.detail': 'Inició infraestructura moderna de reportería BI reemplazando procesos legacy basados en Excel',
+        'experience.inamu.achievement.5.title': 'Experiencia en Compras:',
+        'experience.inamu.achievement.5.detail': 'Creó documentos de requerimientos técnicos (TDR) para sistema de compras SICOP',
+        'experience.inamu.achievement.6.title': 'Calidad de Datos:',
+        'experience.inamu.achievement.6.detail': 'Implementó procesos de limpieza y validación de datos para operaciones gubernamentales críticas',
+
+        // Experiencia Amazon
         'experience.amazon.title': 'Especialista en Riesgo de Fraude',
         'experience.amazon.company': 'Amazon Costa Rica – Servicios Globales (Operaciones de Minería de Riesgos)',
         'experience.amazon.period': 'Sep 2019 - Mayo 2023',
@@ -306,6 +418,83 @@ function applyTranslations(lang) {
     if (inamuCompany) inamuCompany.textContent = t['experience.inamu.company'];
     if (inamuPeriod) inamuPeriod.textContent = t['experience.inamu.period'];
     if (inamuSummary) inamuSummary.textContent = t['experience.inamu.summary'];
+
+    // INAMU Systems header
+    const inamuSystemsHeader = document.querySelector('.timeline-item:first-child .experience-details h4');
+    if (inamuSystemsHeader) inamuSystemsHeader.textContent = t['experience.inamu.systems.header'];
+
+    // INAMU Systems - SARI
+    const sariDetails = document.querySelectorAll('.timeline-item:first-child .system-detail');
+    if (sariDetails[0]) {
+        const sariTitle = sariDetails[0].querySelector('h5');
+        if (sariTitle) sariTitle.textContent = t['experience.inamu.sari.title'];
+
+        const sariItems = sariDetails[0].querySelectorAll('li');
+        if (sariItems.length >= 7) {
+            sariItems[0].innerHTML = `<strong>${t['experience.inamu.sari.1']}</strong> VB.NET, Visual Studio 2008, SQL Server 2008`;
+            sariItems[1].innerHTML = `<strong>${t['experience.inamu.sari.2']}</strong> ${t['experience.inamu.sari.2.detail']}`;
+            sariItems[2].innerHTML = `<strong>${t['experience.inamu.sari.3']}</strong> ${t['experience.inamu.sari.3.detail']}`;
+            sariItems[3].innerHTML = `<strong>${t['experience.inamu.sari.4']}</strong> ${t['experience.inamu.sari.4.detail']}`;
+            sariItems[4].innerHTML = `<strong>${t['experience.inamu.sari.5']}</strong> ${t['experience.inamu.sari.5.detail']}`;
+            sariItems[5].innerHTML = `<strong>${t['experience.inamu.sari.6']}</strong> ${t['experience.inamu.sari.6.detail']}`;
+            sariItems[6].innerHTML = `<strong>${t['experience.inamu.sari.7']}</strong> ${t['experience.inamu.sari.7.detail']}`;
+        }
+    }
+
+    // FOMUJERES
+    if (sariDetails[1]) {
+        const fomTitle = sariDetails[1].querySelector('h5');
+        if (fomTitle) fomTitle.textContent = t['experience.inamu.fomujeres.title'];
+
+        const fomItems = sariDetails[1].querySelectorAll('li');
+        if (fomItems.length >= 3) {
+            fomItems[0].innerHTML = `<strong>${t['experience.inamu.fomujeres.1']}</strong> C#, TFS (Team Foundation Server), SQL Server`;
+            fomItems[1].innerHTML = `<strong>${t['experience.inamu.fomujeres.2']}</strong> ${t['experience.inamu.fomujeres.2.detail']}`;
+            fomItems[2].innerHTML = `<strong>${t['experience.inamu.fomujeres.3']}</strong> ${t['experience.inamu.fomujeres.3.detail']}`;
+        }
+    }
+
+    // SisRUAP
+    if (sariDetails[2]) {
+        const sisTitle = sariDetails[2].querySelector('h5');
+        if (sisTitle) sisTitle.textContent = t['experience.inamu.sisruap.title'];
+
+        const sisItems = sariDetails[2].querySelectorAll('li');
+        if (sisItems.length >= 3) {
+            sisItems[0].innerHTML = `<strong>${t['experience.inamu.sisruap.1']}</strong> .NET, Azure DevOps, SQL Server 2017 on Azure VM`;
+            sisItems[1].innerHTML = `<strong>${t['experience.inamu.sisruap.2']}</strong> ${t['experience.inamu.sisruap.2.detail']}`;
+            sisItems[2].innerHTML = `<strong>${t['experience.inamu.sisruap.3']}</strong> ${t['experience.inamu.sisruap.3.detail']}`;
+        }
+    }
+
+    // SIPGAF
+    if (sariDetails[3]) {
+        const sipTitle = sariDetails[3].querySelector('h5');
+        if (sipTitle) sipTitle.textContent = t['experience.inamu.sipgaf.title'];
+
+        const sipItems = sariDetails[3].querySelectorAll('li');
+        if (sipItems.length >= 2) {
+            sipItems[0].innerHTML = `<strong>${t['experience.inamu.sipgaf.1']}</strong> ${t['experience.inamu.sipgaf.1.detail']}`;
+            sipItems[1].innerHTML = `<strong>${t['experience.inamu.sipgaf.2']}</strong> ${t['experience.inamu.sipgaf.2.detail']}`;
+        }
+    }
+
+    // INAMU Achievements
+    const inamuAchievements = document.querySelectorAll('.timeline-item:first-child .experience-achievements');
+    if (inamuAchievements[0]) {
+        const achievTitle = inamuAchievements[0].querySelector('h4');
+        if (achievTitle) achievTitle.textContent = t['experience.inamu.achievements.title'];
+
+        const achievItems = inamuAchievements[0].querySelectorAll('li');
+        if (achievItems.length >= 6) {
+            achievItems[0].innerHTML = `<strong>${t['experience.inamu.achievement.1.title']}</strong> ${t['experience.inamu.achievement.1.detail']}`;
+            achievItems[1].innerHTML = `<strong>${t['experience.inamu.achievement.2.title']}</strong> ${t['experience.inamu.achievement.2.detail']}`;
+            achievItems[2].innerHTML = `<strong>${t['experience.inamu.achievement.3.title']}</strong> ${t['experience.inamu.achievement.3.detail']}`;
+            achievItems[3].innerHTML = `<strong>${t['experience.inamu.achievement.4.title']}</strong> ${t['experience.inamu.achievement.4.detail']}`;
+            achievItems[4].innerHTML = `<strong>${t['experience.inamu.achievement.5.title']}</strong> ${t['experience.inamu.achievement.5.detail']}`;
+            achievItems[5].innerHTML = `<strong>${t['experience.inamu.achievement.6.title']}</strong> ${t['experience.inamu.achievement.6.detail']}`;
+        }
+    }
 
     // Experience section - Amazon
     const amazonTitle = document.querySelector('.timeline-item:nth-child(2) .experience-header h3');
