@@ -41,36 +41,36 @@ const translations = {
         // Hero Section
         'hero.greeting': "Hello, I'm",
         'hero.name': 'Juan Diego Arce Castro',
-        'hero.title': 'Senior Data & Systems Engineer',
-        'hero.description': 'Delivering mission-critical data solutions in regulated environments. Specialized in SQL Server, Business Intelligence, Azure, and legacy modernization.',
+        'hero.title': 'Data & AI Solutions Engineer',
+        'hero.description': 'SQL Server, RAG, Generative AI, ETL, PostgreSQL, and Azure specialist building reliable data and AI solutions for regulated environments.',
         'hero.glance.title': 'At a Glance',
         'hero.domain': 'Domain:',
-        'hero.domain.value': 'Government & regulated systems',
-        'hero.strengths': 'Strengths:',
-        'hero.strengths.value': 'SQL, BI, ETL & data integrity',
-        'hero.cloud': 'Cloud:',
-        'hero.cloud.value': 'Azure (VMs, SQL DB, DevOps)',
+        'hero.domain.value': 'Government, regulated systems, and enterprise support',
+        'hero.strengths': 'Data:',
+        'hero.strengths.value': 'SQL Server, PostgreSQL, ETL, Power BI, audit reporting',
+        'hero.cloud': 'AI:',
+        'hero.cloud.value': 'RAG, OCR, embeddings, búsqueda vectorial y Ollama/LLMs locales',
         'hero.impact': 'Impact:',
-        'hero.impact.value': 'Process automation, audits & AI initiatives',
+        'hero.impact.value': '600+ stored procedures, 140+ tables, 100,000+ documents',
         'hero.download.cv': 'Download CV',
         'hero.view.projects': 'View Projects',
         'hero.contact.me': 'Contact Me',
 
         // About Section
-        'about.title': 'About Me',
-        'about.intro': "I'm a Senior Data & Systems Engineer with deep expertise in mission-critical systems within regulated government environments.",
-        'about.p1': "Over the past 5+ years, I've specialized in SQL Server, Business Intelligence, and Azure infrastructure, with a proven track record of delivering enterprise-grade solutions for the Costa Rican government.",
-        'about.p2': 'My approach combines technical precision with a focus on data integrity and auditability—critical in regulated environments. I excel at modernizing legacy systems, automating complex processes, and implementing innovative solutions like AI-powered workflows.',
+        'about.title': 'Professional Summary',
+        'about.intro': 'Systems Engineer with experience in SQL Server, data engineering, ETL, reporting, legacy modernization, and enterprise systems support within government and regulated environments.',
+        'about.p1': 'I maintain complex database-driven platforms, optimize T-SQL processes, build Power BI reports, and support Azure/on-premise infrastructure for mission-critical institutional systems.',
+        'about.p2': 'My applied AI work includes RAG document analysis, OCR-based processing, PostgreSQL/vector search workflows, API integrations, Ubuntu Linux, Ollama/local LLM tooling, and large-scale retrieval over 100,000+ institutional documents.',
 
         // Skills Section
-        'skills.title': 'Technical Skills',
+        'skills.title': 'Core Skills',
 
         // Experience Section
         'experience.title': 'Professional Experience',
-        'experience.inamu.title': 'Senior Data & Systems Engineer',
-        'experience.inamu.company': 'INAMU (National Institute for Women) – Costa Rica Government',
+        'experience.inamu.title': 'Data & Systems Engineer',
+        'experience.inamu.company': 'INAMU - Instituto Nacional de las Mujeres, Government of Costa Rica',
         'experience.inamu.period': '2023 - Present',
-        'experience.inamu.summary': "Leading data infrastructure and system modernization initiatives across the organization's mission-critical platforms. Responsible for SQL Server architecture, Business Intelligence solutions, Azure cloud migration, and enterprise-level system integration.",
+        'experience.inamu.summary': 'Maintain, optimize, and modernize mission-critical data and systems platforms across financial, administrative, operational, reporting, and AI-enabled document retrieval workflows.',
         'experience.inamu.systems.title': 'Primary Systems',
         'experience.inamu.systems.header': 'Key Systems & Responsibilities',
 
@@ -114,19 +114,19 @@ const translations = {
         'experience.inamu.sipgaf.2.detail': 'Reporting cubes, business intelligence dashboards',
 
         // Key Achievements
-        'experience.inamu.achievements.title': 'Key Achievements',
-        'experience.inamu.achievement.1.title': 'AI Leadership:',
-        'experience.inamu.achievement.1.detail': 'Supervising Azure AI project implementing RAG architecture and vector databases for institutional knowledge management',
-        'experience.inamu.achievement.2.title': 'Reporting Automation:',
-        'experience.inamu.achievement.2.detail': 'Built automated financial and compliance reporting systems eliminating manual processes',
-        'experience.inamu.achievement.3.title': 'Legacy Modernization:',
-        'experience.inamu.achievement.3.detail': 'Led database migration from SQL Server 2008 to 2017, improving performance and security',
-        'experience.inamu.achievement.4.title': 'BI Transformation:',
-        'experience.inamu.achievement.4.detail': 'Initiated modern BI reporting infrastructure replacing legacy Excel-based processes',
-        'experience.inamu.achievement.5.title': 'Procurement Expertise:',
-        'experience.inamu.achievement.5.detail': 'Created technical requirement documents (TDRs) for SICOP procurement system',
-        'experience.inamu.achievement.6.title': 'Data Quality:',
-        'experience.inamu.achievement.6.detail': 'Implemented data cleansing and validation processes for critical government operations',
+        'experience.inamu.achievements.title': 'Key Contributions',
+        'experience.inamu.achievement.1.title': 'Database Platforms:',
+        'experience.inamu.achievement.1.detail': 'Maintain, analyze, and optimize 600+ stored procedures and 140+ tables across financial, administrative, and operational platforms',
+        'experience.inamu.achievement.2.title': 'T-SQL & Reporting:',
+        'experience.inamu.achievement.2.detail': 'Develop queries, stored procedures, views, extraction scripts, and reporting logic for audits, regulatory requests, and executive decision-making',
+        'experience.inamu.achievement.3.title': 'RAG Pipeline:',
+        'experience.inamu.achievement.3.detail': 'Improved and debugged document processing for ingestion, analysis, validation, and retrieval workflows over 100,000+ INAMU documents',
+        'experience.inamu.achievement.4.title': 'AI Tooling:',
+        'experience.inamu.achievement.4.detail': 'Worked with API integrations, PostgreSQL, OCR, vector search, Ubuntu Linux, and Ollama-based AI workflows',
+        'experience.inamu.achievement.5.title': 'BI & Infrastructure:',
+        'experience.inamu.achievement.5.detail': 'Build Power BI dashboards and support SQL Server environments across on-premise and Azure Virtual Machine infrastructure',
+        'experience.inamu.achievement.6.title': 'Modernization & Procurement:',
+        'experience.inamu.achievement.6.detail': 'Prepare technical requirements, TDR documentation, and system specifications for SICOP modernization projects',
 
         // Amazon Experience
         'experience.amazon.title': 'Fraud Risk Specialist',
@@ -139,18 +139,18 @@ const translations = {
         'experience.amazon.resp3': 'Collaboration with Analytics/Product teams to improve internal risk controls based on data',
 
         // Projects Section
-        'projects.title': 'Featured Projects',
+        'projects.title': 'Applied AI / RAG Project',
         'projects.viewdetails': 'View Details',
 
         // Metrics Section
         'metrics.procedures': 'Stored Procedures',
-        'metrics.users': 'Users Supported',
-        'metrics.systems': 'Critical Systems',
+        'metrics.users': 'Database Tables',
+        'metrics.systems': 'Documents in RAG Workflows',
         'metrics.years': 'Years Experience',
 
         // Contact Section
         'contact.title': "Let's Connect",
-        'contact.intro': 'Available for remote opportunities with US/EU companies. Open to senior data engineering, BI architecture, and technical leadership roles.',
+        'contact.intro': 'Open to Data Engineering, AI Solutions, RAG, BI, ETL, SQL Server, PostgreSQL, and Azure-focused opportunities.',
         'contact.email': 'Email',
         'contact.phone': 'Phone',
         'contact.linkedin': 'LinkedIn',
@@ -175,36 +175,36 @@ const translations = {
         // Sección Hero
         'hero.greeting': 'Hola, soy',
         'hero.name': 'Juan Diego Arce Castro',
-        'hero.title': 'Ingeniero Senior de Datos y Sistemas',
-        'hero.description': 'Entregando soluciones de datos críticas en entornos regulados. Especializado en SQL Server, Business Intelligence, Azure y modernización de sistemas legacy.',
+        'hero.title': 'Ingeniero de Soluciones de Datos e IA',
+        'hero.description': 'Especialista en SQL Server, RAG, IA Generativa, ETL, PostgreSQL y Azure, creando soluciones confiables de datos e IA para entornos regulados.',
         'hero.glance.title': 'De un Vistazo',
         'hero.domain': 'Dominio:',
-        'hero.domain.value': 'Sistemas gubernamentales y regulados',
-        'hero.strengths': 'Fortalezas:',
-        'hero.strengths.value': 'SQL, BI, ETL e integridad de datos',
-        'hero.cloud': 'Nube:',
-        'hero.cloud.value': 'Azure (VMs, SQL DB, DevOps)',
+        'hero.domain.value': 'Gobierno, sistemas regulados y soporte empresarial',
+        'hero.strengths': 'Datos:',
+        'hero.strengths.value': 'SQL Server, PostgreSQL, ETL, Power BI y reportes de auditoría',
+        'hero.cloud': 'IA:',
+        'hero.cloud.value': 'RAG, OCR, embeddings, búsqueda vectorial y Ollama/LLMs locales',
         'hero.impact': 'Impacto:',
-        'hero.impact.value': 'Automatización de procesos, auditorías e iniciativas de IA',
+        'hero.impact.value': '600+ procedimientos, 140+ tablas y 100,000+ documentos',
         'hero.download.cv': 'Descargar CV',
         'hero.view.projects': 'Ver Proyectos',
         'hero.contact.me': 'Contáctame',
 
         // Sección Acerca de
-        'about.title': 'Acerca de Mí',
-        'about.intro': 'Soy un Ingeniero Senior de Datos y Sistemas con amplia experiencia en sistemas críticos dentro de entornos gubernamentales regulados.',
-        'about.p1': 'Durante los últimos 5+ años, me he especializado en SQL Server, Business Intelligence e infraestructura Azure, con un historial comprobado de entrega de soluciones de nivel empresarial para el gobierno de Costa Rica.',
-        'about.p2': 'Mi enfoque combina precisión técnica con un enfoque en la integridad de datos y auditabilidad—crítico en entornos regulados. Destaco en la modernización de sistemas legacy, automatización de procesos complejos e implementación de soluciones innovadoras como flujos de trabajo impulsados por IA.',
+        'about.title': 'Resumen Profesional',
+        'about.intro': 'Ingeniero en Sistemas con experiencia en SQL Server, ingeniería de datos, ETL, reportes, modernización legacy y soporte de sistemas empresariales en entornos gubernamentales y regulados.',
+        'about.p1': 'Mantengo plataformas complejas basadas en bases de datos, optimizo procesos T-SQL, construyo reportes en Power BI y doy soporte a infraestructura Azure/on-premise para sistemas institucionales críticos.',
+        'about.p2': 'Mi experiencia aplicada en IA incluye análisis documental RAG, procesamiento OCR, flujos PostgreSQL/búsqueda vectorial, integraciones API, Ubuntu Linux, Ollama/LLMs locales y recuperación a gran escala sobre 100,000+ documentos institucionales.',
 
         // Sección Habilidades
-        'skills.title': 'Habilidades Técnicas',
+        'skills.title': 'Habilidades Clave',
 
         // Sección Experiencia
         'experience.title': 'Experiencia Profesional',
-        'experience.inamu.title': 'Ingeniero Senior de Datos y Sistemas',
-        'experience.inamu.company': 'INAMU (Instituto Nacional de las Mujeres) – Gobierno de Costa Rica',
+        'experience.inamu.title': 'Ingeniero de Datos y Sistemas',
+        'experience.inamu.company': 'INAMU - Instituto Nacional de las Mujeres, Gobierno de Costa Rica',
         'experience.inamu.period': '2023 - Presente',
-        'experience.inamu.summary': 'Liderando infraestructura de datos e iniciativas de modernización de sistemas en las plataformas críticas de la organización. Responsable de la arquitectura SQL Server, soluciones de Business Intelligence, migración a la nube Azure e integración de sistemas de nivel empresarial.',
+        'experience.inamu.summary': 'Mantengo, optimizo y modernizo plataformas críticas de datos y sistemas en flujos financieros, administrativos, operativos, de reportes y de recuperación documental con IA.',
         'experience.inamu.systems.title': 'Sistemas Principales',
         'experience.inamu.systems.header': 'Sistemas Principales y Responsabilidades',
 
@@ -248,19 +248,19 @@ const translations = {
         'experience.inamu.sipgaf.2.detail': 'Cubos de reportería, tableros de business intelligence',
 
         // Logros Clave
-        'experience.inamu.achievements.title': 'Logros Clave',
-        'experience.inamu.achievement.1.title': 'Liderazgo en IA:',
-        'experience.inamu.achievement.1.detail': 'Supervisando proyecto de IA en Azure implementando arquitectura RAG y bases de datos vectoriales para gestión del conocimiento institucional',
-        'experience.inamu.achievement.2.title': 'Automatización de Reportes:',
-        'experience.inamu.achievement.2.detail': 'Construyó sistemas automatizados de reportes financieros y de cumplimiento eliminando procesos manuales',
-        'experience.inamu.achievement.3.title': 'Modernización Legacy:',
-        'experience.inamu.achievement.3.detail': 'Lideró migración de base de datos de SQL Server 2008 a 2017, mejorando rendimiento y seguridad',
-        'experience.inamu.achievement.4.title': 'Transformación BI:',
-        'experience.inamu.achievement.4.detail': 'Inició infraestructura moderna de reportería BI reemplazando procesos legacy basados en Excel',
-        'experience.inamu.achievement.5.title': 'Experiencia en Compras:',
-        'experience.inamu.achievement.5.detail': 'Creó documentos de requerimientos técnicos (TDR) para sistema de compras SICOP',
-        'experience.inamu.achievement.6.title': 'Calidad de Datos:',
-        'experience.inamu.achievement.6.detail': 'Implementó procesos de limpieza y validación de datos para operaciones gubernamentales críticas',
+        'experience.inamu.achievements.title': 'Contribuciones Clave',
+        'experience.inamu.achievement.1.title': 'Plataformas de Base de Datos:',
+        'experience.inamu.achievement.1.detail': 'Mantengo, analizo y optimizo 600+ procedimientos almacenados y 140+ tablas en plataformas financieras, administrativas y operativas',
+        'experience.inamu.achievement.2.title': 'T-SQL y Reportes:',
+        'experience.inamu.achievement.2.detail': 'Desarrollo consultas, procedimientos, vistas, scripts de extracción y lógica de reportes para auditorías, solicitudes regulatorias y decisiones ejecutivas',
+        'experience.inamu.achievement.3.title': 'Pipeline RAG:',
+        'experience.inamu.achievement.3.detail': 'Mejoré y depuré procesamiento documental para ingesta, análisis, validación y recuperación sobre 100,000+ documentos de INAMU',
+        'experience.inamu.achievement.4.title': 'Herramientas de IA:',
+        'experience.inamu.achievement.4.detail': 'Trabajé con integraciones API, PostgreSQL, OCR, búsqueda vectorial, Ubuntu Linux y flujos de IA basados en Ollama',
+        'experience.inamu.achievement.5.title': 'BI e Infraestructura:',
+        'experience.inamu.achievement.5.detail': 'Construyo dashboards Power BI y doy soporte a SQL Server en infraestructura on-premise y Azure Virtual Machines',
+        'experience.inamu.achievement.6.title': 'Modernización y Compras:',
+        'experience.inamu.achievement.6.detail': 'Preparo requerimientos técnicos, documentación TDR y especificaciones de sistemas para proyectos SICOP de modernización',
 
         // Experiencia Amazon
         'experience.amazon.title': 'Especialista en Riesgo de Fraude',
@@ -273,18 +273,18 @@ const translations = {
         'experience.amazon.resp3': 'Colaboración con equipos de Analítica/Producto para mejorar controles internos de riesgo basados en datos',
 
         // Sección Proyectos
-        'projects.title': 'Proyectos Destacados',
+        'projects.title': 'Proyecto Aplicado de IA / RAG',
         'projects.viewdetails': 'Ver Detalles',
 
         // Sección Métricas
         'metrics.procedures': 'Procedimientos Almacenados',
-        'metrics.users': 'Usuarios Atendidos',
-        'metrics.systems': 'Sistemas Críticos',
+        'metrics.users': 'Tablas de Base de Datos',
+        'metrics.systems': 'Documentos en Flujos RAG',
         'metrics.years': 'Años de Experiencia',
 
         // Sección Contacto
         'contact.title': 'Conectemos',
-        'contact.intro': 'Disponible para oportunidades remotas con empresas de EE. UU./UE. Abierto a roles senior de ingeniería de datos, arquitectura de BI y liderazgo técnico.',
+        'contact.intro': 'Abierto a oportunidades enfocadas en Ingeniería de Datos, Soluciones de IA, RAG, BI, ETL, SQL Server, PostgreSQL y Azure.',
         'contact.email': 'Correo',
         'contact.phone': 'Teléfono',
         'contact.linkedin': 'LinkedIn',
@@ -646,7 +646,7 @@ skillFilters.forEach(filter => {
         skillCards.forEach(card => {
             const cardCategory = card.getAttribute('data-category');
 
-            if (category === 'all' || cardCategory === category) {
+            if (category === 'all' || cardCategory.split(' ').includes(category)) {
                 card.classList.remove('hidden');
                 gsap.from(card, {
                     opacity: 0,

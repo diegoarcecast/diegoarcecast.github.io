@@ -1231,3 +1231,52 @@ p {
     white-space: nowrap;
     border-width: 0;
 }
+/* ==========================================================================
+   Profile Refresh Additions
+   ========================================================================== */
+
+.featured-project-grid {
+    grid-template-columns: 1fr;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+}
+
+.project-card-wide {
+    cursor: default;
+}
+
+.project-highlights {
+    margin: var(--space-3) 0 var(--space-4) var(--space-3);
+    color: var(--text-secondary);
+}
+
+.project-highlights li {
+    margin-bottom: var(--space-2);
+    line-height: 1.6;
+}
+
+.stack-grid,
+.additional-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-4);
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+}
+
+.stack-grid .system-detail {
+    margin-bottom: 0;
+}
+
+.stack-grid .system-detail p,
+.additional-info-grid .contact-card p {
+    margin-bottom: 0;
+}
+
+.compact-timeline {
+    margin-bottom: var(--space-6);
+}
+
+.compact-timeline .timeline-item {
+    margin-bottom: var(--space-4);
+}
