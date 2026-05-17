@@ -145,7 +145,7 @@ const translations = {
         // Metrics Section
         'metrics.procedures': 'Stored Procedures',
         'metrics.users': 'Database Tables',
-        'metrics.systems': 'Critical Systems',
+        'metrics.systems': 'Documents in RAG Workflows',
         'metrics.years': 'Years Experience',
 
         // Contact Section
@@ -279,7 +279,7 @@ const translations = {
         // Sección Métricas
         'metrics.procedures': 'Procedimientos Almacenados',
         'metrics.users': 'Tablas de Base de Datos',
-        'metrics.systems': 'Sistemas Críticos',
+        'metrics.systems': 'Documentos en Flujos RAG',
         'metrics.years': 'Años de Experiencia',
 
         // Sección Contacto
