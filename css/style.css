@@ -1269,7 +1269,7 @@ p {
 }
 
 .stack-grid .system-detail p,
-.additional-info-grid .contact-card p {
+.additional-info-grid .additional-info-card p {
     margin-bottom: 0;
 }
 
@@ -1279,4 +1279,25 @@ p {
 
 .compact-timeline .timeline-item {
     margin-bottom: var(--space-4);
+}
+
+
+.additional-info-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.additional-info-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-primary);
+}
+
+.additional-info-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-2);
 }

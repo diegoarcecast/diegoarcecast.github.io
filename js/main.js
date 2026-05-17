@@ -375,7 +375,7 @@ function applyTranslations(lang) {
     const contactIntro = document.querySelector('.contact-intro');
     if (contactIntro) contactIntro.textContent = t['contact.intro'];
 
-    const contactCards = document.querySelectorAll('.contact-card');
+    const contactCards = document.querySelectorAll('.contact-section .contact-card');
     if (contactCards.length >= 3) {
         // Email card
         if (contactCards[0].querySelector('h3')) contactCards[0].querySelector('h3').textContent = t['contact.email'];
@@ -399,7 +399,7 @@ function applyTranslations(lang) {
     }
 
     // Metrics section
-    const metricCards = document.querySelectorAll('.metric-card');
+    const metricCards = document.querySelectorAll('.metrics-section .metric-card');
     if (metricCards.length >= 4) {
         const metricLabels = metricCards[0].parentElement.querySelectorAll('.metric-label');
         if (metricLabels[0]) metricLabels[0].textContent = t['metrics.procedures'];
@@ -590,7 +590,7 @@ updateActiveNav(); // Initial call
 
 // Fade-in animations for sections
 const animateElements = document.querySelectorAll(
-    '.hero-content, .section-title, .about-text, .skill-card, .timeline-item, .project-card, .metric-card, .contact-card'
+    '.hero-content, .section-title, .about-text, .skill-card, .timeline-item, .project-card, .metric-card, .contact-card, .additional-info-card'
 );
 
 animateElements.forEach((element, index) => {
@@ -690,13 +690,17 @@ function animateCounter(element, target) {
         frame++;
         const progress = frame / totalFrames;
         const currentCount = Math.round(target * easeOutQuad(progress));
-        element.textContent = currentCount;
+        element.textContent = formatMetricValue(currentCount);
 
         if (frame === totalFrames) {
             clearInterval(counter);
-            element.textContent = target;
+            element.textContent = formatMetricValue(target);
         }
     }, frameDuration);
+}
+
+function formatMetricValue(value) {
+    return new Intl.NumberFormat('en-US').format(value);
 }
 
 function easeOutQuad(t) {
