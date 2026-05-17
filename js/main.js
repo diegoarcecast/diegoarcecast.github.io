@@ -145,7 +145,7 @@ const translations = {
         // Metrics Section
         'metrics.procedures': 'Stored Procedures',
         'metrics.users': 'Database Tables',
-        'metrics.systems': 'Documents in RAG Workflows',
+        'metrics.systems': 'Systems',
         'metrics.years': 'Years Experience',
 
         // Contact Section
